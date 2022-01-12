@@ -12,7 +12,7 @@ Format is EagleCAD schematic and board layout
 
 Dig out that old Wii controller and use it as a sleek controller for your next robot if you like. The Adafruit Adafruit Wii Nunchuck Breakout Adapter fits snugly into the Wii connector, and performs the level shifting and power regulation needed to use the controller with any microcontroller or microcomputer.
 
-The Wii controllers use a standard I2C interface, and there's existing code for both Arduino and CircuitPython/Python for quick integration with an Arduino UNO, Feather, or even a Raspberry Pi. We like to use these with the Wii Nunchuck, as you can get an X-Y joystick, two buttons and an accelerometer all in one hand-held package. All data is transmitted over I2C address 0x53, and the address can not be changed.
+The Wii controllers use a standard I2C interface, and there's existing code for both Arduino and CircuitPython/Python for quick integration with an Arduino UNO, Feather, or even a Raspberry Pi. We like to use these with the Wii Nunchuck, as you can get an X-Y joystick, two buttons and an accelerometer all in one hand-held package. All data is transmitted over I2C address 0x52, and the address can not be changed.
 
 We use extra thicc 2.0mm PCBs for this breakout, and made cut-outs for the grabber-notches, so that the controller connection is snug, and wont rattle or come loose!
 
